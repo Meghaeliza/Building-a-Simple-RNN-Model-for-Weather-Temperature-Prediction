@@ -80,33 +80,6 @@ The trained model generates recursive temperature predictions for the next seven
 
 Since future humidity and wind speed values are unavailable, the forecasting implementation holds their most recently observed scaled values constant. This is a simplifying assumption and may limit the reliability of longer-horizon forecasts.
 
-## Limitations
 
-- The model uses a limited set of weather features.
-- Future humidity and wind speed are assumed constant during recursive forecasting.
-- Performance may vary across seasons and different weather conditions.
-- The model is a learning project and is not intended to replace professional weather forecasts.
-
-## How to Run
-
-1. Clone or download this repository.
-2. Install the required Python packages.
-3. Open `weather_temperature_prediction.ipynb` in Jupyter Notebook or Google Colab.
-4. Obtain the original dataset and update the dataset path in the notebook.
-5. Run the notebook cells in order.
-
-## Future Improvements
-
-- Compare SimpleRNN with LSTM and GRU architectures.
-- Include additional weather variables.
-- Use actual or separately forecast future humidity and wind speed.
-- Compare performance against simple baseline models.
-- Tune model hyperparameters and assess performance across different seasons.
-
-## Author
-
-Megha Abraham
-
-## License
 
 Add an appropriate license if you intend to distribute this project. Check the dataset's license separately before redistributing the data.
